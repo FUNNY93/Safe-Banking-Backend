@@ -1,0 +1,38 @@
+# Environment / secrets
+.env
+*.env
+
+# Spring Boot secrets
+application-local.properties
+application-secret.properties
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+# STS
+.springBeans
+.sts4-cache
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Zip files
+*.zip
